@@ -1,7 +1,7 @@
-# 🖼️ Deep Learning Super-Resolution Project
+# 🖼️ Image Super-Resolution
 
 ## 📌 Overview
-This project replicates the paper **"Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"** [1]. The goal is to upscale low-resolution images to high-resolution using a deep convolutional neural network (CNN) and generative adversarial networks (GANs).
+The aim of this project is to replicate and improve the results and models used in the 📖 [paper (C. Ledig et al.)](https://arxiv.org/pdf/1609.04802). The goal is to upscale low-resolution images to high-resolution using a deep convolutional neural network (CNN) and generative adversarial networks (GANs).
 
 ## 📂 Setup
 To run this project, ensure that the following folders exist in your Google Drive:
@@ -73,11 +73,9 @@ We evaluate the models using:
 - SRGAN introduces **high-frequency details**, but requires careful tuning to avoid artifacts.
 - WGAN shows promise but needs **further optimization**.
 
-## 📖 References
-[1] **Ledig et al.**, *Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network*, [arXiv:1609.04802](https://arxiv.org/abs/1609.04802)
-[2] PyTorch CIFAR-10 Tutorial: [link](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
-[3] SRGAN GitHub Repository: [link](https://github.com/leftthomas/SRGAN)
-[4] Wasserstein GAN Explanation: [link](https://medium.com/mlearning-ai/how-to-improve-image-generation-using-wasserstein-gan-1297f449ca75)
+## 👥 Contributors
+-  [Riccardo Riglietti]()
+-  [Antonio Scardino](https://github.com/antoscardi)
 
 ---
 🔧 **Developed in Google Colab with PyTorch**
